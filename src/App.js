@@ -3,7 +3,7 @@ import React from "react";
 import Expenses from "./components/Expenses/Expenses";
 
 
-function App() {
+const App = () => {
   /*
   // IMPERATIVE WAY EXAMPLE
   const para = document.createElement('p');

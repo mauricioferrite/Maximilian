@@ -3,7 +3,7 @@ import React from "react";
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
 
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
   const title = props.title;
   const amount = props.amount;
 
