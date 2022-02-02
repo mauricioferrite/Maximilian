@@ -8,7 +8,6 @@ const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
   
   const clickHandler = () => {
-    
     setTitle('Update!!');
     console.log(title);
   }
